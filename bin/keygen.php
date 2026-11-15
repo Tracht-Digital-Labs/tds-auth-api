@@ -24,7 +24,7 @@ $privFile = $keysDir . '/private.pem';
 $pubFile = $keysDir . '/public.pem';
 
 if (file_exists($privFile)) {
-    fwrite(STDERR, "keys/private.pem already exists — delete it first if you really mean to rotate.\n");
+    fwrite(STDERR, "keys/private.pem already exists, delete it first if you really mean to rotate.\n");
     exit(1);
 }
 
@@ -59,4 +59,4 @@ echo "  1. Copy the private key contents into your local .env (JWT_PRIVATE_KEY=)
 echo "  2. Copy the same value into the production host ~/sites/api.tracht-digital.de/auth/shared/.env\n";
 echo "  3. Save the keypair in a password manager (1Password, BitWarden) for disaster recovery.\n";
 echo "  4. Commit keys/public.pem to the repo (it is intentionally tracked).\n";
-echo "  5. Optionally rm keys/private.pem after step 1 — only the env var is needed at runtime.\n";
+echo "  5. Optionally rm keys/private.pem after step 1, only the env var is needed at runtime.\n";

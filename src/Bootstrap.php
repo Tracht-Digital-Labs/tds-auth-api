@@ -534,7 +534,7 @@ final class Bootstrap
         }
         $file = $rootDir . '/keys/public.pem';
         if (!file_exists($file)) {
-            throw new \RuntimeException('keys/public.pem missing — run `composer keygen`');
+            throw new \RuntimeException('keys/public.pem missing, run `composer keygen`');
         }
         return (string) file_get_contents($file);
     }

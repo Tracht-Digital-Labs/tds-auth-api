@@ -28,6 +28,7 @@ On Windows, set `OPENSSL_CONF` for the test run (see [docs/agents/testing.md](do
 - Existence-revealing routes answer 404, not 403.
 - Primary-key columns carry `'null' => false`; when renaming a column, grep the repositories in the same change.
 - Env helpers use explicit `?? false`; `CorsMiddleware` goes after `addRoutingMiddleware()`; `php -S` uses `public/router.php`.
+- Follows the TDS quality standard (`../tds-ops/standards/quality.md`): no AI slop, clean code.
 
 ## Topic files
 

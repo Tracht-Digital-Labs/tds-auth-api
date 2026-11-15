@@ -90,5 +90,5 @@ if ($generated) {
 echo "Created admin user {$email} (id {$id}).\n";
 if ($generated) {
     echo "Temporary password: {$password}\n";
-    echo "Log in at the admin panel — you'll be prompted to set a new password.\n";
+    echo "Log in at the admin panel, you'll be prompted to set a new password.\n";
 }
