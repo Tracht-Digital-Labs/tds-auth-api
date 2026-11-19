@@ -23,7 +23,7 @@
 ## 1. Clone + install
 
 ```bash
-git clone https://github.com/Tracht-Digital-Solutions/tds-auth-api.git
+git clone https://github.com/Tracht-Digital-Labs/tds-auth-api.git
 cd tds-auth-api
 composer install
 ```
@@ -206,11 +206,11 @@ deploy; pushes to `main` only build the (undeployed) `dev` bundle.
 
 ## Related repos
 
-- [tds-shared-pkg](https://github.com/Tracht-Digital-Solutions/tds-shared-pkg) — type definitions for login payloads
-- [tds-customer-api](https://github.com/Tracht-Digital-Solutions/tds-customer-api) — verifies JWTs against this JWKS, calls back via `POST /admin/customer-credentials`
-- [tds-content-api](https://github.com/Tracht-Digital-Solutions/tds-content-api) — verifies admin write JWTs against this API's JWKS
-- [tds-admin](https://github.com/Tracht-Digital-Solutions/tds-admin) — gets its admin session cookie from this API's `/login`
-- [tds-customer-legacy-frontend](https://github.com/Tracht-Digital-Solutions/tds-customer-legacy-frontend) — gets the customer cookie from this API
+- [tds-shared-pkg](https://github.com/Tracht-Digital-Labs/tds-shared-pkg) — type definitions for login payloads
+- [tds-customer-api](https://github.com/Tracht-Digital-Labs/tds-customer-api) — verifies JWTs against this JWKS, calls back via `POST /admin/customer-credentials`
+- [tds-content-api](https://github.com/Tracht-Digital-Labs/tds-content-api) — verifies admin write JWTs against this API's JWKS
+- [tds-admin](https://github.com/Tracht-Digital-Labs/tds-admin) — gets its admin session cookie from this API's `/login`
+- [tds-customer-legacy-frontend](https://github.com/Tracht-Digital-Labs/tds-customer-legacy-frontend) — gets the customer cookie from this API
 
 ## Troubleshooting
 
